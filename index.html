@@ -7,7 +7,6 @@
         body {
             width: 70%;
             margin: 0 auto;
-            
         }
         
         p {
@@ -18,6 +17,7 @@
         .page-home {
             background-color: #f5f5f5;
             border: 2px solid #9b9b9b;
+            position: relative;
         }
         /*   header   */
         
@@ -46,6 +46,20 @@
             color: #9B9B9B;
         }
         
+        h1:before {
+            position: absolute;
+            content: "";
+            height: 200px;
+            width: 200px;
+            top: 2.5%;
+            right: 5%;
+            background-image: url(http://rajindersehmi.darlic.com/wp-content/uploads/sites/404/2020/01/sukh.jpg);
+            background-position: initial;
+            background-size: 202px;
+            border: 4px solid;
+            filter: grayscale(1);
+        }
+        
         .header h3 {
             font-size: 25px;
             font-weight: 100;
@@ -54,6 +68,9 @@
         .header hr {
             color: #737272;
             border: 0.3px solid #737272;
+            position: relative;
+            width: 71%;
+            left: -122px;
         }
         
         .header span {
@@ -156,6 +173,16 @@
             color: #008b8b;
         }
         
+        .stream {
+            width: 33%;
+            float: left;
+        }
+        
+        .from {
+            width: 33%;
+            float: left;
+        }
+        
         @media only screen and (max-width: 901px) {
             body {
                 width: 100%;
@@ -182,8 +209,9 @@
                         <div class="wrapper">
                             <div id="page_content" class="page-content">
                                 <div class="wrapper">
-                                    <p>Hi! My Name is sukhjinder Singh. i am a web developer , and I'm very passionate and dedicated to my work. With 2 years experience as a professional web developer, i have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion  and collaboration .  
+                                    <p>Hi! My Name is Sukhjinder Singh. I am a web designer, and I'm very passionate and dedicated to my work. With 7 month experience as a professional web designer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration . </p>
                                 </div>
+
                                 <div class="portfolio ">
                                     <div class="wrapper">
 
@@ -201,6 +229,7 @@
                                                         <li>Aione Framework</li>
                                                         <li>html</li>
                                                         <li>css</li>
+                                                        <li>E-commerce</li>
                                                         <li>Photoshop</li>
                                                     </ul>
                                                 </div>
@@ -240,9 +269,9 @@
                                                 </div>
                                                 <div class="description">
                                                     <ul>
-                                                        <li>BCA</li>
-                                                        <li>+2</li>
-                                                        <li>10</li>
+                                                        <li><span class="stream">BCA </span> <span class="from"> Khalsa collage </span></li>
+                                                        <li><span class="stream">+2  </span> <span class="from"> GSS school </span></li>
+                                                        <li><span class="stream">10  </span> <span class="from"> SGHH school</span></li>
                                                     </ul>
                                                 </div>
                                             </div>
